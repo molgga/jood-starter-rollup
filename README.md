@@ -1,17 +1,23 @@
 # rollup + workspace 구성안
 
-1. init
+- init
 
-   ```sh
-   $ yarn run bootstrap
-   ```
+  ```sh
+  $ yarn run bootstrap
+  # $ yarn run bootstrap:install # node_modules 를 설치
+  # $ yarn run bootstrap:builds # workspace 의 패키지 빌드
+  ```
 
-   - node_modules 를 설치합니다.
-   - workspace 의 패키지들을 빌드합니다.
+- package build
 
-2. demo run
+  ```sh
+  $ yarn run bootstrap:builds
+  ```
 
-   ```sh
-   $ yarn workspace @jood-starter-rollup/demo serve
-   ```
+- demo run
+
+  ```sh
+  $ yarn workspace @jood-starter-rollup/demo serve
+  ```
+
 # jood-starter-rollup
