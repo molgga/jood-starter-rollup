@@ -1,4 +1,4 @@
-packages/demo/* linguist-vendored
+packages/demo/**/* linguist-vendored
 .eslintignore linguist-vendored
 .eslintrc.js linguist-vendored
 *.config.js linguist-vendored
