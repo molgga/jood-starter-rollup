@@ -1,4 +1,4 @@
-# rollup + workspace 구성안
+# jood-starter-rollup
 
 - init
 
@@ -19,5 +19,3 @@
   ```sh
   $ yarn workspace @jood-starter-rollup/demo serve
   ```
-
-# jood-starter-rollup
