@@ -1,10 +1,10 @@
 {
-  "name": "jood-typeko",
+  "name": "jood-starter-rollup",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
-  "description": "한글 초성, 중성, 종성 구분과 타이핑",
+  "description": "rollup workspace",
   "license": "MIT",
   "scripts": {
     "bootstrap": "yarn run bootstrap:install && yarn run bootstrap:builds",
